@@ -42,7 +42,7 @@ else
    Console.WriteLine("Fail!");
 }
 
-//4.Nested if else – Find the largest of 3 numbers
+// 4.Nested if else – Find the largest of 3 numbers
 Console.WriteLine("Enter 3 nos: ");
 int first = Convert.ToInt32(Console.ReadLine());
 int second = Convert.ToInt32(Console.ReadLine());
@@ -68,4 +68,26 @@ else
    {
        Console.WriteLine("{0} is the largest", third);
    }
+}
+
+// 5. Switch case – Find the day with day number
+Console.Write("Enter your day no: ");
+int d = Convert.ToInt32(Console.ReadLine());
+switch (d) {
+ case 1: Console.WriteLine("Sunday");
+ break;
+ case 2: Console.WriteLine("Monday");
+ break;
+ case 3: Console.WriteLine("Tuesday");
+ break;
+ case 4: Console.WriteLine("Wednessday");
+ break;
+ case 5: Console.WriteLine("Thursday");
+ break; 
+ case 6: Console.WriteLine("Friday");
+ break;
+ case 7: Console.WriteLine("Saturday");
+ break;
+ default: Console.WriteLine("Invalid day number!");
+ break;
 }
