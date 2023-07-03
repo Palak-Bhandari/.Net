@@ -62,8 +62,7 @@ else
 {
    if (second > third)
    {
-       Console.WriteLine("{0} is the largest",
-      second);
+       Console.WriteLine("{0} is the largest", second);
    }
    else
    {
